@@ -3,7 +3,7 @@
      --cinza-secundario:#C0C0C0;
      --botao-azul: #167BF7;
      --cor-de-fundo:#00030c;
-     --fonte-principal:'Inter';
+     --fonte-principal:'Roboto';
 }
 body {
      background-color: var(--cor-de-fundo);
@@ -38,13 +38,21 @@ border-radius: 5px;
 padding: 16px;
 text-decoration: none;
 display: block;
+margin-bottom: 16px;
 }
 .principal-titulo{
      font: size 28px;;
      font-weight: 700;
+     font-family:'Roboto';
+
 }
 
 .principal-aviso{
 font-size: 14px;
 color: var(--cinza-secundario);
+}
+
+.principal-imagem{
+margin: 16px 0 32px 0;
+
 }

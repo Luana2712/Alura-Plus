@@ -100,4 +100,5 @@ margin: top 16px;;
 }
 .lista-item{
      font-size: 32px;
+     display: flex;
 }
